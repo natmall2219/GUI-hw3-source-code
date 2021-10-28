@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="webpagestyling.css">
+<title>Multiplication Table Generator</title>
+</head>
+<body>
+<script src="codefortable.js"></script>
+<h1>Multiplication Table Generator</h1>
+
+<div id= "Everything">
+  <form class = "form">
+    <div id='minimum-column'>
+      <label for="MinColumnValue">Minimum Column Value</label>
+      <input type="number" id="MinColumnValue">
+    </div>
+    <div id='maximum-column'>
+      <label for="MaxColumnValue">Maximum Column Value</label>
+      <input type="number" id="MaxColumnValue">
+    </div>
+    <div id='minimum-row'>
+        <label for="MinRowValue">Minimum Row Value</label>
+      <input type="number" id="MinRowValue">
+    </div>
+    <div id='maximum-row'>
+        <label for="MaxRowValue">Maximum Row Value</label>
+      <input type="number" id="MaxRowValue">
+    </div>
+    <div class ="GenerationButton">
+    <button type="button" id='button' class="btn btn-primary btn-sm" onclick="ReadInFourNumbers()">Generate New table</button>
+    </div>
+  </form>
+  <span id="DisplayError"></span>
+     <div id= "Multiplication-Table">
+        <table id='MultiplicationTable'></table>
+    </div>
+</div>
+</body>
+
+</html>
