@@ -1,3 +1,8 @@
+/* GUI HW3
+Natalie Mallon
+email: natalie_mallon@student.uml.edu 
+*/ 
+
 var output = '';
 var BlankFieldError = '';
 var ValueConflictError = '';
